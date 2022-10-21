@@ -30,7 +30,6 @@ public class Ballad {
     public static void main(String[] args) {
         Ballad ballad = new Ballad();
         try {
-           // throw new FileNotMatch("\"Data from file does not match\"");
             System.out.println("ballad.readPoemFromAFile(\"src/main/resources/ballad.txt\") = " + ballad.readPoemFromAFile("src/main/resources/ballad.txt"));
         }catch (FileNotFoundException e)
         {
