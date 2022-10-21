@@ -25,7 +25,7 @@ public class BalladTest {
     }
 
     @Test
-    public void givenCorrectDataFromFileCheckData() throws FileNotFoundException {
+    public void givenCorrectDataFromFileCheckData() throws FileNotFoundException,IOException {
         String balladData = "";
         String str = ballad.readPoemFromAFile("src/main/resources/ballad.txt");
         FileInputStream fis = new FileInputStream("src/main/resources/ballad.txt");
